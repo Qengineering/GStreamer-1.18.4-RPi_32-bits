@@ -65,3 +65,4 @@ Since the developer of the rpicamsrc, Jan Schmidt aka [thaytan](https://github.c
             " height=(int)" + std::to_string(display_height) + " ! "
             " videoconvert ! video/x-raw, format=(string)BGR ! appsink";
 ```
+For more info see [rpicamsrc](https://gstreamer.freedesktop.org/documentation/rpicamsrc/index.html?gi-language=c)
