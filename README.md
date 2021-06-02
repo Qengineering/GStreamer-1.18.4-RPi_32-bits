@@ -54,4 +54,14 @@ As long it's a valid combination, it will work. For instance:<br/>
 ```
 
 
-![output image]( https://qengineering.eu/images/GStreamer_32_90FPS.webp )
+![output image]( https://qengineering.eu/images/GStreamer_32_90FPS.webp )<br/>
+
+Since the developer of the rpicamsrc, Jan Schmidt aka [thaytan](https://github.com/thaytan/gst-rpicamsrc), took the raspivid parameters as best they could, many can now be used in the pipeline. An example;<br/>
+```
+            "rpicamsrc exposure-mode=off shutter-speed=50 preview=false ! "
+            "video/x-raw, width=(int)" + std::to_string(capture_width) + ", height=(int)" + std::to_string(capture_height) + ", framerate=(fraction)" + std::to_string(framerate) +"/1 !"
+            " videoscale ! video/x-raw,"
+            " width=(int)" + std::to_string(display_width) + ","
+            " height=(int)" + std::to_string(display_height) + " ! "
+            " videoconvert ! video/x-raw, format=(string)BGR ! appsink";
+```
