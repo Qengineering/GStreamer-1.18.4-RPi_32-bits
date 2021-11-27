@@ -12,7 +12,7 @@ If you have an 64-bits OS see https://github.com/Qengineering/GStreamer-1.18.4-R
 To run the application, you have to:
 - A Raspberry Pi 4 with a **32-bits** operating system. 
 - GStreamer 1.18.4 installed. [Install GStreamer](https://qengineering.eu/install-gstreamer-1.18-on-raspberry-pi-4.html) <br/>
-- OpenCV 64 bit installed. [Install OpenCV 4.5](https://qengineering.eu/install-opencv-4.5-on-raspberry-64-os.html) <br/>
+- OpenCV bit installed. [Install OpenCV 4.5](https://qengineering.eu/install-opencv-4.5-on-raspberry-pi-4.html) <br/>
 - Code::Blocks installed. (```$ sudo apt-get install codeblocks```)
 - A working Raspicam
 
