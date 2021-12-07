@@ -66,3 +66,8 @@ Since the developer of the rpicamsrc, Jan Schmidt aka [thaytan](https://github.c
             " videoconvert ! video/x-raw, format=(string)BGR ! appsink";
 ```
 For more info see [rpicamsrc](https://gstreamer.freedesktop.org/documentation/rpicamsrc/index.html?gi-language=c)
+
+------------
+
+[![paypal](https://qengineering.eu/images/TipJarSmall4.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CPZTM5BB3FCYL) 
+
